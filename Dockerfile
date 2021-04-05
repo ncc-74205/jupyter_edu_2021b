@@ -17,9 +17,7 @@ RUN curl -L https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-
 # Unpack and install the kernel
 RUN unzip ijava-kernel.zip -d ijava-kernel \
   && cd ijava-kernel \
-  && python3 install.py --sys-prefix \
-  && conda install rise -c conda-forge \
-  && conda install xeus-cling -c conda-forge
+  && python3 install.py --sys-prefix
 
 # Set up the user environment
 
