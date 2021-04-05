@@ -45,3 +45,9 @@ wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.4.2
 nbtoolbelt==2020.7.dev2
+sos==0.22.5
+sos-notebook==0.22.4
+sos-python==0.18.4
+sos-matlab==0.18.5
+sos-javascript==0.18.1
+sos-bash==0.20.0
